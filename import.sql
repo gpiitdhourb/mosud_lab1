@@ -1,0 +1,9 @@
+\copy olist.customers FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_customers_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.geolocation FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_geolocation_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.orders FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_orders_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.order_items FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_order_items_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.order_payments FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_order_payments_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.order_reviews FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_order_reviews_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.products FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_products_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.sellers FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/olist_sellers_dataset.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
+\copy olist.product_category_name_translation FROM '/Users/chebooreka/.cache/kagglehub/datasets/olistbr/brazilian-ecommerce/versions/2/product_category_name_translation.csv' WITH (FORMAT csv, HEADER true, ENCODING 'UTF8');
